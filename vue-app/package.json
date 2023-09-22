@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "build": "vue-cli-service build",
     "test:e2e": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service test:e2e",
     "lint": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
   },
